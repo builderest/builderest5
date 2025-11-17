@@ -1,0 +1,5 @@
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+<rect width="120" height="40" rx="12" fill="#0b1b2b"/>
+<path d="M15 10h10l-5 20h-5z" fill="#22a7ff"/>
+<text x="35" y="25" fill="#22a7ff" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="600">Builderest</text>
+</svg>
