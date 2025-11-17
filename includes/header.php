@@ -19,20 +19,20 @@ $services = request_services();
 <body>
 <header class="site-header">
     <div class="container d-flex align-items-center justify-content-between">
-        <a class="logo d-flex align-items-center" href="/index.php">
+        <a class="logo d-flex align-items-center" href="index.php">
             <img src="<?= asset('assets/img/logo.svg'); ?>" alt="Builderest" height="40">
             <span class="ms-2 fw-bold">Builderest</span>
         </a>
         <nav class="primary-nav d-none d-lg-flex">
-            <a href="/services.php">Servicios</a>
-            <a href="/pricing.php">Planes</a>
-            <a href="/portfolio.php">Casos</a>
-            <a href="/blog.php">Blog</a>
-            <a href="/about.php">Nosotros</a>
-            <a href="/contact.php">Contacto</a>
+            <a href="services.php">Servicios</a>
+            <a href="pricing.php">Planes</a>
+            <a href="portfolio.php">Casos</a>
+            <a href="blog.php">Blog</a>
+            <a href="about.php">Nosotros</a>
+            <a href="contact.php">Contacto</a>
         </nav>
         <div class="header-cta d-none d-lg-flex">
-            <a class="btn btn-outline-light" href="/get-quote.php">Solicitar Demo</a>
+            <a class="btn btn-outline-light" href="get-quote.php">Solicitar Demo</a>
         </div>
         <button class="menu-toggle d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav">
             <span></span><span></span><span></span>
@@ -45,13 +45,13 @@ $services = request_services();
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
     </div>
     <div class="offcanvas-body">
-        <a class="mobile-link" href="/services.php">Servicios</a>
-        <a class="mobile-link" href="/pricing.php">Planes</a>
-        <a class="mobile-link" href="/portfolio.php">Casos</a>
-        <a class="mobile-link" href="/blog.php">Blog</a>
-        <a class="mobile-link" href="/about.php">Nosotros</a>
-        <a class="mobile-link" href="/contact.php">Contacto</a>
-        <a class="btn btn-sky w-100 mt-3" href="/get-quote.php">Get a Quote</a>
+        <a class="mobile-link" href="services.php">Servicios</a>
+        <a class="mobile-link" href="pricing.php">Planes</a>
+        <a class="mobile-link" href="portfolio.php">Casos</a>
+        <a class="mobile-link" href="blog.php">Blog</a>
+        <a class="mobile-link" href="about.php">Nosotros</a>
+        <a class="mobile-link" href="contact.php">Contacto</a>
+        <a class="btn btn-sky w-100 mt-3" href="get-quote.php">Get a Quote</a>
     </div>
 </div>
 <main>

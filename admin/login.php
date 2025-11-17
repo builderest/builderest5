@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($user === 'admin' && $pass === 'builderest') {
         $_SESSION['admin'] = true;
-        header('Location: /admin/index.php');
+        header('Location: index.php');
         exit;
     }
 
@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Builderest</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/admin/css/admin.css">
+    <link rel="stylesheet" href="css/admin.css">
 </head>
 <body>
 <div class="d-flex align-items-center justify-content-center" style="min-height:100vh;">

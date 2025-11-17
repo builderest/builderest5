@@ -18,7 +18,7 @@
                         <p class="text-white-50">
                             <?= e($post['excerpt']); ?>
                         </p>
-                        <a class="btn btn-link text-white" href="/blog-single.php?id=<?= e($post['id']); ?>">Leer más →</a>
+                        <a class="btn btn-link text-white" href="blog-single.php?id=<?= e($post['id']); ?>">Leer más →</a>
                     </article>
                 </div>
             <?php endforeach; ?>

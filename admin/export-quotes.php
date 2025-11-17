@@ -4,7 +4,7 @@ use App\Models\QuoteModel;
 require_once __DIR__ . '/../app/init.php';
 
 if (empty($_SESSION['admin'])) {
-    header('Location: /admin/login.php');
+    header('Location: login.php');
     exit;
 }
 

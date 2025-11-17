@@ -13,7 +13,7 @@ $service = $serviceModel->find($id);
             <p class="text-uppercase text-white-50">Servicio</p>
             <h1 class="section-title"><?= e($service['name']); ?></h1>
             <p class="text-white-50"><?= e($service['description']); ?></p>
-            <a class="btn btn-sky" href="/get-quote.php">Solicitar cotización</a>
+            <a class="btn btn-sky" href="get-quote.php">Solicitar cotización</a>
         <?php else: ?>
             <h1 class="section-title">Servicio no encontrado</h1>
             <p class="text-white-50">El servicio solicitado no existe.</p>
@@ -39,7 +39,7 @@ $service = $serviceModel->find($id);
                 <div class="card-gradient">
                     <h4>Beneficios Clave</h4>
                     <p class="text-white-50">Cobertura nacional, soporte 24/7 y SLA premium.</p>
-                    <a class="btn btn-outline-light w-100" href="/contact.php">Hablar con un experto</a>
+                    <a class="btn btn-outline-light w-100" href="contact.php">Hablar con un experto</a>
                 </div>
             </div>
         </div>

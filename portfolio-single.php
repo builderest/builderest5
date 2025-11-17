@@ -27,7 +27,7 @@ foreach ($portfolioProjects as $item) {
         <div class="card-gradient">
             <h3>Descripción</h3>
             <p class="text-white-50"><?= e($project['description']); ?></p>
-            <a class="btn btn-sky" href="/get-quote.php">Solicitar asesoría</a>
+            <a class="btn btn-sky" href="get-quote.php">Solicitar asesoría</a>
         </div>
     </div>
 </section>

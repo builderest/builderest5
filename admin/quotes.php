@@ -4,7 +4,7 @@ use App\Models\QuoteModel;
 require_once __DIR__ . '/../app/init.php';
 
 if (empty($_SESSION['admin'])) {
-    header('Location: /admin/login.php');
+    header('Location: login.php');
     exit;
 }
 
@@ -23,16 +23,16 @@ if ($filter) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cotizaciones</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/admin/css/admin.css">
+    <link rel="stylesheet" href="css/admin.css">
 </head>
 <body>
 <div class="admin-shell">
     <aside class="admin-sidebar">
         <h2>Builderest Admin</h2>
-        <a href="/admin/index.php">Resumen</a>
-        <a href="/admin/quotes.php">Get a Quote</a>
-        <a href="/admin/settings.php">Configuración</a>
-        <a href="/admin/logout.php">Cerrar sesión</a>
+        <a href="index.php">Resumen</a>
+        <a href="quotes.php">Get a Quote</a>
+        <a href="settings.php">Configuración</a>
+        <a href="logout.php">Cerrar sesión</a>
     </aside>
     <section class="admin-content">
         <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
@@ -40,7 +40,7 @@ if ($filter) {
                 <h1 class="h3 mb-0">Solicitudes de cotización</h1>
                 <p class="text-white-50 mb-0">Filtra por servicio y exporta la información.</p>
             </div>
-            <a class="btn btn-sky" href="/admin/export-quotes.php">Exportar CSV</a>
+            <a class="btn btn-sky" href="export-quotes.php">Exportar CSV</a>
         </div>
         <form class="row g-3 mb-4" method="get">
             <div class="col-md-6">

@@ -6,7 +6,7 @@ use App\Models\ServiceModel;
 
 function asset(string $path): string
 {
-    return '/' . ltrim($path, '/');
+    return ltrim($path, '/');
 }
 
 function e(?string $value): string

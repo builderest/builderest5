@@ -7,8 +7,8 @@
                 <h1>Seguridad corporativa con monitoreo inteligente 24/7</h1>
                 <p class="lead text-white-50">Builderest combina hardware profesional, automatización y equipos SOC certificados para empresas multisede.</p>
                 <div class="d-flex flex-wrap gap-3">
-                    <a class="btn btn-sky" href="/get-quote.php">Get a Quote</a>
-                    <a class="btn btn-outline-light" href="/services.php">Explorar servicios</a>
+                    <a class="btn btn-sky" href="get-quote.php">Get a Quote</a>
+                    <a class="btn btn-outline-light" href="services.php">Explorar servicios</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -54,7 +54,7 @@
                 <p class="text-uppercase text-white-50 mb-1">Servicios Core</p>
                 <h2 class="section-title">Arquitectura integral estilo ADT</h2>
             </div>
-            <a class="btn btn-outline-light" href="/services.php">Ver todos</a>
+            <a class="btn btn-outline-light" href="services.php">Ver todos</a>
         </div>
         <div class="row g-4">
             <?php foreach (array_slice($services, 0, 6) as $service): ?>
@@ -68,7 +68,7 @@
                             <span class="badge-soft"><?= e($service['badge']); ?></span>
                         </div>
                         <p class="text-white-50"><?= e($service['summary']); ?></p>
-                        <a class="btn btn-link text-decoration-none text-white" href="/service-single.php?id=<?= e($service['id']); ?>">Ver detalles →</a>
+                        <a class="btn btn-link text-decoration-none text-white" href="service-single.php?id=<?= e($service['id']); ?>">Ver detalles →</a>
                     </div>
                 </div>
             <?php endforeach; ?>
@@ -81,7 +81,7 @@
             <div class="col-lg-6">
                 <h2 class="section-title">Planes preparados para escalar</h2>
                 <p class="text-white-50">Modelos flexibles inspirados en ADT para empresas que exigen SLA estrictos y soporte dedicado.</p>
-                <a class="btn btn-sky" href="/pricing.php">Conocer precios</a>
+                <a class="btn btn-sky" href="pricing.php">Conocer precios</a>
             </div>
             <div class="col-lg-6">
                 <div class="card-gradient">

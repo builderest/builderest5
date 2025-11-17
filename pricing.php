@@ -21,7 +21,7 @@
                                 <li><?= e($feature); ?></li>
                             <?php endforeach; ?>
                         </ul>
-                        <a class="btn btn-sky mt-4" href="/get-quote.php">Choose Plan</a>
+                        <a class="btn btn-sky mt-4" href="get-quote.php">Choose Plan</a>
                     </div>
                 </div>
             <?php endforeach; ?>

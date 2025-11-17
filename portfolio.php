@@ -16,7 +16,7 @@
                         <span class="badge-soft mb-3"><?= e($project['industry']); ?></span>
                         <h3 class="h4"><?= e($project['title']); ?></h3>
                         <p class="text-white-50"><?= e($project['summary']); ?></p>
-                        <a class="btn btn-link text-white" href="/portfolio-single.php?id=<?= e($project['id']); ?>">Ver caso →</a>
+                        <a class="btn btn-link text-white" href="portfolio-single.php?id=<?= e($project['id']); ?>">Ver caso →</a>
                     </article>
                 </div>
             <?php endforeach; ?>

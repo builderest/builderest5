@@ -18,13 +18,13 @@
                         </div>
                         <h3 class="h4 mb-2"><?= e($service['name']); ?></h3>
                         <p class="text-white-50 mb-4"><?= e($service['summary']); ?></p>
-                        <a class="btn btn-sky w-100" href="/service-single.php?id=<?= e($service['id']); ?>">Ver servicio</a>
+                        <a class="btn btn-sky w-100" href="service-single.php?id=<?= e($service['id']); ?>">Ver servicio</a>
                     </article>
                 </div>
             <?php endforeach; ?>
         </div>
         <div class="text-center mt-5">
-            <a class="btn btn-outline-light" href="/contact.php">Ver más servicios</a>
+            <a class="btn btn-outline-light" href="contact.php">Ver más servicios</a>
         </div>
     </div>
 </section>
